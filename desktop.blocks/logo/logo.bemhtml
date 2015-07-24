@@ -1,0 +1,10 @@
+block('logo')(
+    tag()('a'),
+    attrs()(function(){
+        return {
+            href: this.ctx.url || this.ctx.href || '#'
+        }
+    }),
+    elem('text').tag()('span'),
+    elem('ending').tag()('span')
+);
