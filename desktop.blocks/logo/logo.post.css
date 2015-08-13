@@ -1,0 +1,22 @@
+.logo{
+    color:#333;
+    text-decoration: none;
+    font-size: 3.125rem;
+    line-height:3.25rem;
+    margin:1rem;
+
+    display: inline-block;
+    &__text{
+
+    }
+    &__ending{
+        color:#63A963;
+    }
+}
+
+
+@media all and (max-width: 500px) {
+    .logo{
+        margin: 1rem 0 1rem;
+    }
+}

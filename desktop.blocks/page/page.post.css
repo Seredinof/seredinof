@@ -1,0 +1,12 @@
+.page{
+    margin:0 auto;
+    padding:0;
+    max-width: 1280px;
+    min-width: 320px;
+    font: normal 0.875rem/1rem Georgia, 'Times New Roman', Times, serif;
+    color:#333;
+
+    &__in{
+        padding: 0 1rem;
+    }
+}

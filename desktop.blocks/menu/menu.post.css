@@ -1,0 +1,25 @@
+.menu{
+    display: flex;
+    justify-content: flex-end;
+    flex: 1 auto;
+    outline: none;
+}
+
+
+/* Экраны среднего размера */
+@media all and (max-width: 800px) {
+    .menu {
+        /* Для экранов среднего размера мы выравниваем навигацию по центру,
+        равномерно распредляя свободное место между элементами */
+        justify-content: space-between;
+        margin-bottom: 1rem;
+    }
+}
+
+/* Маленькие экраны */
+@media all and (max-width: 500px) {
+    .menu {
+        /* На маленьких экранах вместо строки мы располагаем элементы в столбце */
+        flex-direction: column;
+    }
+}

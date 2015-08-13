@@ -1,0 +1,4 @@
+block('project')(
+    elem('thumb').tag()('span'),
+    elem('title').tag()('span')
+);

@@ -1,0 +1,5 @@
+.link{
+    &_focused{
+        outline:none;
+    }
+}

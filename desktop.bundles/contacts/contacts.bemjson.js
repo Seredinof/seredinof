@@ -1,18 +1,18 @@
 ({
     block: 'page',
-    title : 'Seredinof(w)',
+    title : 'Контакты',
     head : [
         { elem : 'meta', attrs : { name : 'description', content : '' } },
         { elem : 'meta', attrs : { name : 'viewport', content : 'width=device-width, initial-scale=1' } }
     ],
     styles: [
-        { elem: 'css', url: '_index.css' },
+        { elem: 'css', url: '_contacts.css' },
         '<!--[if IE 9]>',
-            { elem: 'css', url: '_index.ie9.css' },
+            { elem: 'css', url: '_contacts.ie9.css' },
         '<![endif]-->'
     ],
     scripts: [
-        { elem: 'js', url: '_index.js' }
+        { elem: 'js', url: '_contacts.js' }
     ],
     content: [
         {
@@ -76,14 +76,7 @@
                                 {
                                     block: 'menu-item',
                                     mods : { type : 'link' },
-                                    content:[
-                                        {
-                                            block:'link',
-                                            mods:{content:'menu'},
-                                            url:'#',
-                                            content:'Контакты'
-                                        }
-                                    ]
+                                    content:'Контакты'
                                 }
                             ]
                         }
@@ -92,7 +85,11 @@
                 {
                     block : 'content',
                     content:[
-                        'text'
+                        {
+                            block:'heading',
+                            mods:{level:'1'},
+                            content:'Контакты'
+                        }
                     ]
                 },
                 {

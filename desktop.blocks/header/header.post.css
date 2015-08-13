@@ -1,0 +1,13 @@
+.header{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: baseline;
+}
+
+/* Маленькие экраны */
+@media all and (max-width: 500px) {
+    .header {
+        /* На маленьких экранах вместо строки мы располагаем элементы в столбце */
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,6 @@
+block('heading')(
+    tag()('h1'),
+    mod('level','2').tag()('h2'),
+    mod('level','3').tag()('h3'),
+    mod('level','4').tag()('h4')
+);

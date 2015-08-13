@@ -1,0 +1,9 @@
+.link_content_menu{
+    color:#63A963;
+    text-decoration:none;
+    transition: color 0.2s linear;
+
+    &.link_hovered{
+        color:#333;
+    }
+}

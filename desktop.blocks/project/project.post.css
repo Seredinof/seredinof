@@ -1,0 +1,25 @@
+.project{
+    display: block;
+    text-decoration:none;
+    color:#333;
+    &__thumb{
+        display: block;
+     }
+    &__title{
+        display:block;
+        text-align:center;
+        margin-top:10px;
+        font-size: 1.3rem;
+        line-height: 1.425rem;
+        transition: color 0.2s linear;
+    }
+
+    &:hover{
+        .project__title{
+            color:#000;
+        }
+/*         .project__thumb{
+             background: rgba(99,169,99,0.5);
+         }*/
+     }
+}

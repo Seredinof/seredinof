@@ -10,5 +10,9 @@
   ],
   "dependencies": {
     "bem-components": "v2.2.1"
+  },
+  "devDependencies": {
+    "bem-grid": "~2.0.0",
+    "normalize-css": "~3.0.3"
   }
 }

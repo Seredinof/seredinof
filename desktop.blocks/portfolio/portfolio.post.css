@@ -1,0 +1,25 @@
+.portfolio{
+    display: flex;
+    flex-flow: row wrap;
+
+    &__item{
+        margin-bottom: 30px;
+        lost-column: 1/3 flex;
+    }
+}
+
+@media all and (max-width: 800px) {
+    .portfolio{
+        &__item{
+            lost-column:1/2;
+        }
+    }
+}
+
+@media all and (max-width: 500px) {
+    .portfolio{
+        &__item{
+            lost-column:1/1;
+        }
+    }
+}
